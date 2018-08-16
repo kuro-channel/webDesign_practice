@@ -71,6 +71,9 @@ header {
 
 #wrap {
   clear: both;
+  background-color: #ffffff;
+  margin-top: 220px;
+  padding: 35px 0;
 }
 
 .content {
@@ -132,9 +135,45 @@ footer small {
 }
 
 #index {
-  background-image: url(../images/bg-index.jpg);
+  background-image: url(bg-index.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
 }
+
+#about {
+  background-image: url(bg-about.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.main-center{
+  width: 940px;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'Bitter',serif;
+  font-size: 36px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h2{
+  font-family: 'Bitter',serif;
+  font-size: 24px;
+}
+
+.icon::before{
+  content:"";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
+}
+
+#about .profile-txt{
+  width: 540px;
+  float: left;
+}
+
